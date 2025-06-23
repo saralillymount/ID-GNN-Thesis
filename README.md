@@ -15,16 +15,15 @@ Graph Neural Networks (GNNs) have revolutionized learning on graph-structured da
 ### 🎯 Objectives
 - Improve expressive power of GNNs for structural tasks
 - Benchmark against standard GNN architectures
-- Demonstrate real-world applicability in anomaly detection and classification
+- Demonstrate real-world applicability in classification
 
 ---
 
 ## 🧪 Key Features
 
 - 🔁 **ID-aware Message Passing**: Encodes ego-node identity at each step
-- ⚡ **ID-GNN-Fast**: Lightweight variant using hand-engineered identity features (cycle counts, centrality, etc.)
-- 🧪 **Benchmarking**: Extensive evaluation on node classification, link prediction, and graph property prediction tasks
-- 📈 **Performance**: Shows up to **40%** relative improvement in structural tasks compared to traditional GNNs
+- 🧪 **Benchmarking**: Extensive evaluation on node classification tasks
+- 📈 **Performance**: Achieves within 3% classification accuracy in structural tasks of traditional GNNs
 
 ---
 
@@ -33,11 +32,8 @@ Graph Neural Networks (GNNs) have revolutionized learning on graph-structured da
 - **Python 3.10**
 - **PyTorch**
 - **PyTorch Geometric**
-- **GraphGym** (Stanford)
+
 - **NetworkX**, **NumPy**, **Scikit-learn**
 - Jupyter Notebooks for visualization and exploratory testing
 
----
-
-## 🧬 Directory Structure
 
